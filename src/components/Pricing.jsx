@@ -2,7 +2,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import { PLANS_CONTENT } from "../constants";
 import space from "../assets/space-exploration.png";
-import chalatix from "../assets/lensly.png";
+import chalatix from "../assets/fintech.png";
 import photo from "../assets/photostudio.png";
 
 export default function Pricing() {
@@ -56,12 +56,11 @@ export default function Pricing() {
           >
             <div>
               <h3 className="text-lg lg:text-xl mb-4 tracking-tighter uppercase">
-                Lensly Digital
+                FinTech
               </h3>
               <p className="text-neutral-400 mb-6">
-                A modern and user friendly multipage photography and video
-                              portfolio for photography company, it offers luxury looking design and detailed information
-                              about the brand and the experiences it captures
+                A Platform that allows users to register, verify identity (kyc), deposit and withdraw 
+                funds and track basic transaction history.
               </p>
               <img className="rounded" src={chalatix} alt="" />
             </div>
@@ -71,7 +70,7 @@ export default function Pricing() {
               <ul className="mb-8 mt-4 space-y-4  text-neutral-400">
                 <li className="flex items-center">
                   <span className="inline-block w-8 h-1 mr-2 bg-purple-600 rounded-md"></span>
-                  5 pages built with react tailwind and react router 6 
+                  10+  pages built with react tailwind and react router 6 
                               </li>
                               <li className="flex items-center">
                   <span className="inline-block w-8 h-1 mr-2 bg-purple-600 rounded-md"></span>
@@ -102,7 +101,7 @@ export default function Pricing() {
                   <span className=" ">FramerMotion</span>
                 </li>
               </ul>
-              <a href="https://lensly.netlify.app/">
+              <a href="https://fintech-mvp.netlify.app/">
                 <button className="text-purple-600 hover:text-purple-500 mt-8 border-b border-purple-600">
                   View Live Demo
                 </button>

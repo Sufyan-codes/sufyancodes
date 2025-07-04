@@ -48,7 +48,7 @@ export default function KeyFeatures() {
           variants={containerVariants}
           initial="hidden"
           whileInView="visible"
-          className="grid grid-cols-3"
+          className="grid grid-cols-3 items-center align-center"
         >
           <motion.div
             className="flex flex-col items-center

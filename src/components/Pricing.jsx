@@ -2,8 +2,9 @@ import React from "react";
 import { motion } from "framer-motion";
 import { PLANS_CONTENT } from "../constants";
 import space from "../assets/space-exploration.png";
-import chalatix from "../assets/fintech.png";
+import fintech from "../assets/fintech.png";
 import photo from "../assets/photostudio.png";
+import chalatix from "../assets/chalatix.png";
 
 export default function Pricing() {
   const childVariants = {
@@ -62,7 +63,7 @@ export default function Pricing() {
                 A Platform that allows users to register, verify identity (kyc), deposit and withdraw 
                 funds and track basic transaction history.
               </p>
-              <img className="rounded" src={chalatix} alt="" />
+              <img className="rounded" src={fintech} alt="" />
             </div>
 
             <div className="">
@@ -116,13 +117,12 @@ export default function Pricing() {
           >
             <div>
               <h3 className="text-lg lg:text-xl mb-4 tracking-tighter uppercase">
-                Space-Exploration
+                Chalatix
               </h3>
               <p className="text-neutral-400 mb-6">
-                              A sleek and user friendly multiple page space-exploration agency that allows users
-                              to be able book a space travel destination.
+                              A sleek and user friendly landing page for   agency.
               </p>
-              <img className="rounded" src={space} alt="" />
+              <img className="rounded" src={chalatix} alt="" />
             </div>
             <div>
               <h1 className="lg:text-2xl text-xl lg:mb-10">Key Features</h1>
@@ -130,19 +130,19 @@ export default function Pricing() {
               <ul className="mb-8 mt-4 space-y-4 text-neutral-400">
                 <li className="flex items-center">
                   <span className="inline-block w-8 h-1 mr-2 bg-purple-600 rounded-md"></span>
-                  10+ pages Built with React router 6
+                  landing page Built with React and tailwind css
                 </li>
                 <li className="flex items-center">
                   <span className="inline-block w-8 h-1 mr-2 bg-purple-600 rounded-md"></span>
-                  Reduced initial loading speed by 50% using loaders, image optimization and lazy loading
+                  Sleek Design and animations with framer motion
                 </li>
                 <li className="flex items-center">
                   <span className="inline-block w-8 h-1 mr-2 bg-purple-600 rounded-md"></span>
-                  Implemented protected routes and login/sign up functionalities
+                  Fully responsive on all devices
                 </li>
                 <li className="flex items-center">
                   <span className="inline-block w-8 h-1 mr-2 bg-purple-600 rounded-md"></span>
-                  Utilized miragejs to fetch and query data, currently working on using firebase for backend
+                  Modern Design
                 </li>
               </ul>
               <ul className="grid grid-cols-4 text-purple-600">
@@ -161,7 +161,66 @@ export default function Pricing() {
                   <span className=" ">FramerMotion</span>
                 </li>
               </ul>
-              <a href="https://space-booking-app.netlify.app">
+              <a href="https://chalatix.netlify.app/">
+                <button className="text-purple-600 hover:text-purple-500 mt-8 border-b border-purple-600">
+                  View Live Demo
+                </button>
+              </a>
+            </div>
+          </motion.div>
+          <motion.div
+            variants={childVariants}
+            className={`p-8 rounded-xl shadow-lg grid lg:grid-cols-2 grid-cols-1 gap-8 bg-neutral-950 border border-purple-900/80 border border-neutral-800"
+                          }`}
+          >
+            <div>
+              <h3 className="text-lg lg:text-xl mb-4 tracking-tighter uppercase">
+                photostudio
+              </h3>
+              <p className="text-neutral-400 mb-6">
+                A Beautiful and user friendly single page photostudio agency
+                landing page 
+              </p>
+              <img className="rounded" src={photo} alt="" />
+            </div>
+                      <div>
+                      <h1 className="lg:text-2xl text-xl lg:mb-10">Key Features</h1>
+              <ul className="mb-8 mt-4 space-y-2 text-neutral-400">
+                <li className="flex items-center">
+                  <span className="inline-block w-8 h-1 mr-2 bg-purple-600 rounded-md"></span>
+                  A HTML, CSS and tailwind landing page
+                </li>
+                <li className="flex items-center">
+                  <span className="inline-block w-8 h-1 mr-2 bg-purple-600 rounded-md"></span>
+                  Sleek Design and animations with framer motion
+                </li>
+                <li className="flex items-center">
+                  <span className="inline-block w-8 h-1 mr-2 bg-purple-600 rounded-md"></span>
+                  Fully responsive on all devices
+                </li>
+
+                <li className="flex items-center">
+                  <span className="inline-block w-8 h-1 mr-2 bg-purple-600 rounded-md"></span>
+                  Modern Design
+                </li>
+                          </ul>
+                          <ul className="grid grid-cols-4 text-purple-600">
+                <li>
+                  <span className=" ">HTML</span>
+                </li>
+                <li>
+                  <span className="  ">Tailwind</span>{" "}
+                </li>
+                <li>
+                  {" "}
+                  <span className="  ">Javascript</span>
+                </li>
+                <li>
+                  {" "}
+                  <span className=" ">FramerMotion</span>
+                </li>
+              </ul>
+              <a href="https://photolanding.netlify.app/">
                 <button className="text-purple-600 hover:text-purple-500 mt-8 border-b border-purple-600">
                   View Live Demo
                 </button>

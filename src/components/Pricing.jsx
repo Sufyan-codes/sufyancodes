@@ -178,10 +178,10 @@ export default function Pricing() {
           >
             <div>
               <h3 className="text-lg lg:text-xl mb-4 tracking-tighter uppercase">
-                Chalatix
+                Dasboard UI
               </h3>
               <p className="text-neutral-400 mb-6">
-                              A sleek and user friendly landing page for   agency.
+                              A sleek and user friendly Dashboard page for   agency.
               </p>
               <img className="rounded" src={chalatix} alt="" />
             </div>
@@ -222,7 +222,7 @@ export default function Pricing() {
                   <span className=" ">FramerMotion</span>
                 </li>
               </ul>
-              <a href="https://chalatix.netlify.app/">
+              <a href="https://modern-dashboard-react.netlify.app/">
                 <button className="text-purple-600 hover:text-purple-500 mt-8 border-b border-purple-600">
                   View Live Demo
                 </button>

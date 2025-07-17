@@ -3,6 +3,7 @@ import { motion } from "framer-motion";
 import { PLANS_CONTENT } from "../constants";
 import space from "../assets/space-exploration.png";
 import fintech from "../assets/fintech.png";
+import OndePay from "../assets/onedpay.png";
 import photo from "../assets/photostudio.png";
 import chalatix from "../assets/chalatix.png";
 
@@ -50,6 +51,66 @@ export default function Pricing() {
           }}
           className="grid grid-cols-1  gap-8"
         >
+          
+          <motion.div
+            variants={childVariants}
+            className={`p-8 rounded-xl shadow-lg grid lg:grid-cols-2 grid-cols-1 gap-8 bg-neutral-950 border border-purple-900/80 border border-neutral-800"
+                          }`}
+          >
+            <div>
+              <h3 className="text-lg lg:text-xl mb-4 tracking-tighter uppercase">
+                OndePay
+              </h3>
+              <p className="text-neutral-400 mb-6">
+                A Platform that allows users to register, verify identity (kyc), deposit and withdraw 
+                funds and track basic transaction history.
+              </p>
+              <img className="rounded" src={OndePay} alt="" />
+            </div>
+
+            <div className="">
+              <h1 className="lg:text-2xl text-xl lg:mb-10">Key Features</h1>
+              <ul className="mb-8 mt-4 space-y-4  text-neutral-400">
+                <li className="flex items-center">
+                  <span className="inline-block w-8 h-1 mr-2 bg-purple-600 rounded-md"></span>
+                  10+  pages built with react tailwind and react router 6 
+                              </li>
+                              <li className="flex items-center">
+                  <span className="inline-block w-8 h-1 mr-2 bg-purple-600 rounded-md"></span>
+                  Reduced the initial loading time by 40% through image optimization and lazy loading.
+                </li>
+                <li className="flex items-center">
+                  <span className="inline-block w-8 h-1 mr-2 bg-purple-600 rounded-md"></span>
+                  Ensured 99% design consistency accross 5 different viewports sizes.
+                              </li>
+                              <li className="flex items-center">
+                  <span className="inline-block w-8 h-1 mr-2 bg-purple-600 rounded-md"></span>
+                  Implemented query functionalities for projects and galleries.
+                </li>
+              </ul>
+              <ul className="grid grid-cols-4 text-purple-600">
+                <li>
+                  <span className=" ">React</span>
+                </li>
+                <li>
+                  <span className="  ">React Router</span>{" "}
+                </li>
+                <li>
+                  {" "}
+                  <span className="  ">Tailwind</span>
+                </li>
+                <li>
+                  {" "}
+                  <span className=" ">FramerMotion</span>
+                </li>
+              </ul>
+              <a href="https://onedpay.netlify.app/">
+                <button className="text-purple-600 hover:text-purple-500 mt-8 border-b border-purple-600">
+                  View Live Demo
+                </button>
+              </a>
+            </div>
+          </motion.div>
 
           <motion.div
             variants={childVariants}
@@ -84,7 +145,7 @@ export default function Pricing() {
                               </li>
                               <li className="flex items-center">
                   <span className="inline-block w-8 h-1 mr-2 bg-purple-600 rounded-md"></span>
-                  Implemented query functionalities for projects and galleries.
+                  Implemented dashboard.
                 </li>
               </ul>
               <ul className="grid grid-cols-4 text-purple-600">

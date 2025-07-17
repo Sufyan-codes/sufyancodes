@@ -1,6 +1,6 @@
 import React from 'react'
 import { motion } from 'framer-motion'
-import { TESTIMONIALS_CONTENT } from '../constants'
+
 
 export default function Testimonials() {
     const TestimonialVariants = {

@@ -1,6 +1,6 @@
 import React from 'react'
-import { BRAND_LOGOS, HERO_CONTENT} from "../constants"
-import heroImage from "../assets/hero.jpg"
+import { HERO_CONTENT} from "../constants"
+
 import {motion} from 'framer-motion'
 
 export default function HeroSection() {

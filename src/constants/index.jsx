@@ -11,7 +11,7 @@ import {
 
 export const HERO_CONTENT = {
   badgeText: "🚀Hi, im Abu safyan Yusuf!",
-  mainHeading: "React Developer \n & UI/UX Designer",
+  mainHeading: "React Developer",
   subHeading:
     "I'm a passionate frontend developer who brings designs to life with precision and creativity. With a background in Mathematics, I combine technical expertise and an eye for detail to craft seamless digital experiences. I'm dedicated to exceeding client expectations and delivering user-centric solutions.",
   callToAction: {

@@ -111,7 +111,6 @@ export default function Pricing() {
               </a>
             </div>
           </motion.div>
-
           <motion.div
             variants={childVariants}
             className={`p-8 rounded-xl shadow-lg grid lg:grid-cols-2 grid-cols-1 gap-8 bg-neutral-950 border border-purple-900/80 border border-neutral-800"
@@ -119,33 +118,32 @@ export default function Pricing() {
           >
             <div>
               <h3 className="text-lg lg:text-xl mb-4 tracking-tighter uppercase">
-                FinTech
+                Dasboard UI
               </h3>
               <p className="text-neutral-400 mb-6">
-                A Platform that allows users to register, verify identity (kyc), deposit and withdraw 
-                funds and track basic transaction history.
+                              A sleek and user friendly Dashboard page for   agency.
               </p>
-              <img className="rounded" src={fintech} alt="" />
+              <img className="rounded" src={chalatix} alt="" />
             </div>
-
-            <div className="">
+            <div>
               <h1 className="lg:text-2xl text-xl lg:mb-10">Key Features</h1>
-              <ul className="mb-8 mt-4 space-y-4  text-neutral-400">
+
+              <ul className="mb-8 mt-4 space-y-4 text-neutral-400">
                 <li className="flex items-center">
                   <span className="inline-block w-8 h-1 mr-2 bg-purple-600 rounded-md"></span>
-                  10+  pages built with react tailwind and react router 6 
-                              </li>
-                              <li className="flex items-center">
-                  <span className="inline-block w-8 h-1 mr-2 bg-purple-600 rounded-md"></span>
-                  Reduced the initial loading time by 40% through image optimization and lazy loading.
+                  landing page Built with React and tailwind css
                 </li>
                 <li className="flex items-center">
                   <span className="inline-block w-8 h-1 mr-2 bg-purple-600 rounded-md"></span>
-                  Ensured 99% design consistency accross 5 different viewports sizes.
-                              </li>
-                              <li className="flex items-center">
+                  Sleek Design and animations with framer motion
+                </li>
+                <li className="flex items-center">
                   <span className="inline-block w-8 h-1 mr-2 bg-purple-600 rounded-md"></span>
-                  Implemented dashboard.
+                  Fully responsive on all devices
+                </li>
+                <li className="flex items-center">
+                  <span className="inline-block w-8 h-1 mr-2 bg-purple-600 rounded-md"></span>
+                  Modern Design
                 </li>
               </ul>
               <ul className="grid grid-cols-4 text-purple-600">
@@ -164,14 +162,15 @@ export default function Pricing() {
                   <span className=" ">FramerMotion</span>
                 </li>
               </ul>
-              <a href="https://fintech-mvp.netlify.app/">
+              <a href="https://modern-dashboard-react.netlify.app/">
                 <button className="text-purple-600 hover:text-purple-500 mt-8 border-b border-purple-600">
                   View Live Demo
                 </button>
               </a>
             </div>
           </motion.div>
-
+          
+       
           <motion.div
             variants={childVariants}
             className={`p-8 rounded-xl shadow-lg grid lg:grid-cols-2 grid-cols-1 gap-8 bg-neutral-950 border border-purple-900/80 border border-neutral-800"
@@ -232,65 +231,7 @@ export default function Pricing() {
             </div>
           </motion.div>
 
-          <motion.div
-            variants={childVariants}
-            className={`p-8 rounded-xl shadow-lg grid lg:grid-cols-2 grid-cols-1 gap-8 bg-neutral-950 border border-purple-900/80 border border-neutral-800"
-                          }`}
-          >
-            <div>
-              <h3 className="text-lg lg:text-xl mb-4 tracking-tighter uppercase">
-                Dasboard UI
-              </h3>
-              <p className="text-neutral-400 mb-6">
-                              A sleek and user friendly Dashboard page for   agency.
-              </p>
-              <img className="rounded" src={chalatix} alt="" />
-            </div>
-            <div>
-              <h1 className="lg:text-2xl text-xl lg:mb-10">Key Features</h1>
-
-              <ul className="mb-8 mt-4 space-y-4 text-neutral-400">
-                <li className="flex items-center">
-                  <span className="inline-block w-8 h-1 mr-2 bg-purple-600 rounded-md"></span>
-                  landing page Built with React and tailwind css
-                </li>
-                <li className="flex items-center">
-                  <span className="inline-block w-8 h-1 mr-2 bg-purple-600 rounded-md"></span>
-                  Sleek Design and animations with framer motion
-                </li>
-                <li className="flex items-center">
-                  <span className="inline-block w-8 h-1 mr-2 bg-purple-600 rounded-md"></span>
-                  Fully responsive on all devices
-                </li>
-                <li className="flex items-center">
-                  <span className="inline-block w-8 h-1 mr-2 bg-purple-600 rounded-md"></span>
-                  Modern Design
-                </li>
-              </ul>
-              <ul className="grid grid-cols-4 text-purple-600">
-                <li>
-                  <span className=" ">React</span>
-                </li>
-                <li>
-                  <span className="  ">React Router</span>{" "}
-                </li>
-                <li>
-                  {" "}
-                  <span className="  ">Tailwind</span>
-                </li>
-                <li>
-                  {" "}
-                  <span className=" ">FramerMotion</span>
-                </li>
-              </ul>
-              <a href="https://modern-dashboard-react.netlify.app/">
-                <button className="text-purple-600 hover:text-purple-500 mt-8 border-b border-purple-600">
-                  View Live Demo
-                </button>
-              </a>
-            </div>
-          </motion.div>
-          
+         
           <motion.div
             variants={childVariants}
             className={`p-8 rounded-xl shadow-lg grid lg:grid-cols-2 grid-cols-1 gap-8 bg-neutral-950 border border-purple-900/80 border border-neutral-800"
